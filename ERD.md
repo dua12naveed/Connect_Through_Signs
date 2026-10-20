@@ -1,4 +1,10 @@
-erDiagram
+# Database Schema (ERD)
+
+![ERD Diagram](ERD_Diagram.png)
+
+```mermaid
+
+  erDiagram
     SETTINGS ||--o{ SESSION : configures
     SESSION ||--o{ MESSAGE : contains
     SESSION ||--o{ RECOGNITION_RESULT : logs
@@ -129,4 +135,8 @@ erDiagram
         int error_type_id FK
         string outcome
         datetime occurred_at
-    }<img width="2368" height="2214" alt="EDG" src="https://github.com/user-attachments/assets/9ea10737-cc6a-4ffd-972e-427068b804d7" />
+    }
+```
+
+
+<img width="2368" height="2214" alt="EDG" src="https://github.com/user-attachments/assets/9ea10737-cc6a-4ffd-972e-427068b804d7" />
