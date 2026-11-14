@@ -1,0 +1,26 @@
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# Machine learning data and models
+ml/data/
+*.keras
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
